@@ -6,5 +6,6 @@ dnf install -y python3-pip
 cd inspirational_quotes
 python3 -m venv venv
 source venv/bin/activate
+pip install --upgrade pip
 pip3 install -r requirements.txt
 python3 inspirational_quotes.py quotes_output.csv
