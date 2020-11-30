@@ -1,8 +1,7 @@
 #!/bin/bash
-dnf update -y
-dnf install -y git python3 python3-pip
+sudo dnf update -y
+sudo dnf install -y git python3 python3-pip
 git clone https://github.com/stevey-m/inspirational_quotes
-chmod -R 777 inspirational_quotes
 cd inspirational_quotes
 python3 -m venv venv
 source venv/bin/activate
@@ -19,5 +18,6 @@ head -3 quotes_output.csv
 echo
 echo "--- Congratulations the script has finished successfully ---"
 echo
+
 
 
