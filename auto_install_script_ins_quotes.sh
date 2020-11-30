@@ -17,7 +17,7 @@ echo "--- Top 3 lines of the output file ---"
 echo
 head -3 quotes_output.csv
 echo
-echo "--- Congratulations the script has finished successfull ---"
+echo "--- Congratulations the script has finished successfully ---"
 echo
 
 
